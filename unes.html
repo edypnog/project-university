@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<title>UNES - Universidade</title>
+
+	<style>
+		.navbar {
+			border-top: 5px solid rgb(42, 42, 105);
+		}
+
+		.capa {
+			background: rgb(20, 20, 51);
+			height: 70vh;
+		}
+
+		.capa .carousel-inner .carousel-item img {
+			object-fit: cover;
+			object-position: 100% 0;
+			width: 100%;
+			height: 70vh;
+			background: linear-gradient(rgba(0, 0, 0, 0.6));
+		}
+
+		div.banner {
+			border: 1px solid black;
+			opacity: 0.6;
+		}
+
+		.carousel-item img {
+			object-fit: cover;
+			object-position: 100% 0;
+			width: 100%;
+			height: 300px;
+			filter: blur(1px);
+		}
+
+		.carousel-item {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		.carousel-caption {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		footer {
+			background: rgb(20, 20, 51);
+			height: 100%;
+		}
+
+		footer .footer-text {
+			color: rgb(93, 93, 143);
+			font-weight: bold;
+		}
+
+		footer .bio {
+			font-size: 15px;
+			color: rgb(93, 93, 143);
+		}
+
+		.address-text {
+			font-size: 15px;
+			color: rgb(93, 93, 143);
+		}
+
+		span .find {
+			font-weight: 700;
+			color: rgb(105, 105, 129);
+		}
+
+		h5.h-footer {
+			font-size: 15px;
+			color: rgb(105, 105, 129);
+		}
+	</style>
+</head>
+
+<body class="bg-light">
+	<nav class="navbar navbar-expand-sm navbar-light bg-light mw-100">
+
+		<!-- Logo -->
+		<a href="" class="navbar-brand">
+			<img src="../imagens/logo.png" width="200">
+		</a>
+
+		<!-- Menu Hamburguer -->
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- navegacao -->
+		<div class="collapse navbar-collapse" id="navegacao">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Academic</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Our Team</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="capa">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active banner">
+					<img src="../imagens/uos2.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item banner">
+					<img src="../imagens/uos.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 mt-3">
+				<p class="h5">Seattle University</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Suspendisse sit amet mollis nisl. Aliquam sit amet diam ac quam dignissim lobortis vel
+					ac sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Suspendisse sit amet mollis nisl. Aliquam sit amet diam ac quam dignissim lobortis vel
+					ac sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Suspendisse sit amet mollis nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Suspendisse sit amet mollis nisl.</p>
+			</div>
+			<div class="col-sm-4 mt-2">
+				<img src="../imagens/po.jpg" class="img-thumbnail img-fluid mx-auto d-block" width="400">
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-sm">
+				<p class="h5 text-center">Cursos Oferecidos</p>
+				<div class="list-group">
+					<!--<a href="#" class="list-group-item list-group-item-action active bg-info" aria-current="true">
+				  Análise e Desenvolvimento de Sistemas
+				</a>-->
+					<a href="#" class="list-group-item list-group-item-action">Análise e Desenvolvimento de Sistemas</a>
+					<a href="#" class="list-group-item list-group-item-action">Artes Cênicas</a>
+					<a href="#" class="list-group-item list-group-item-action">Administração</a>
+					<a href="#" class="list-group-item list-group-item-action">Big Data</a>
+					<a href="#" class="list-group-item list-group-item-action">Biomedicina</a>
+
+				</div>
+				<button type="button" class="btn btn-outline-info mt-2 float-right">Ver todos</button>
+
+			</div>
+
+			<div class="col-sm mt-3">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../imagens/campus3.jpg" class="d-block w-100" width="300">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>First slide label</h5>
+								<p>Some representative placeholder content for the first slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="../imagens/campus2.jpg" class="d-block w-100" width="300">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Second slide label</h5>
+								<p>Some representative placeholder content for the second slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="../imagens/campus.jpg" class="d-block w-100" width="300">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Third slide label</h5>
+								<p>Some representative placeholder content for the third slide.</p>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-sm mt-2">
+				<div class="card text-center">
+					<div class="card-header">
+						Featured
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						<a href="#" class="btn btn-info">Go somewhere</a>
+					</div>
+					<div class="card-footer text-muted">
+						2 days ago
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container mw-100 h-75 d-inline-block">
+			<div class="row">
+				<div class="col-sm">
+					<img src="../imagens/logo.png" class="navbar-brand float-sm-left mt-2" width="100">
+					<p class="bio p-2">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Suspendisse sit amet mollis nisl. Aliquam sit amet diam ac quam dignissim lobortis vel
+						ac sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit.
+						Suspendisse sit amet mollis nisl. Aliquam sit amet diam ac quam dignissim lobortis vel
+						ac sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<a href="#" class="text-decoration-none float-left"
+						style="font-size: 15px; color: rgb(187, 187, 212);">Click here and follow us.</a>
+
+				</div>
+				<div class="col-sm float-right m-2">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10759.859554327139!2d-122.3297242!3d47.6073724!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ac8cbf49ba1%3A0x43d4a2852f7dc041!2sUniversidade%20de%20Seattle!5e0!3m2!1spt-BR!2sbr!4v1615596717032!5m2!1spt-BR!2sbr"
+						width="450" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+						class="mt-2 float-right">
+					</iframe>
+					<h5 class="h-footer ml-0 mt-3 float-left">Seattle University<br>
+						901 12th Avenue<br>
+						Seattle, WA 98122<br>
+						206-296-6000</h5>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+	<div class="copy text-sm-center mb-0 pb-0" style="color: rgb(93, 93, 143);">&copy; Seattle University | Edy Nogueira
+	</div>
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
+
+	<!-- Option 2: Separate Popper and Bootstrap JS -->
+	<!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
